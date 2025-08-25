@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78F1BE8B2E5C6DDD00A2A893 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F1BE8A2E5C6DDD00A2A893 /* Launch Screen.storyboard */; };
+		78F1BE8D2E5C6E3D00A2A893 /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F1BE8C2E5C6E3D00A2A893 /* Launch Screen 2.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		78F1BCC12E549B4500A2A893 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		78F1BCB22E549B4200A2A893 /* FitPlay_TH_Bonan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitPlay_TH_Bonan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F1BCC02E549B4500A2A893 /* FitPlay_TH_BonanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitPlay_TH_BonanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F1BCCA2E549B4500A2A893 /* FitPlay_TH_BonanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitPlay_TH_BonanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F1BE8A2E5C6DDD00A2A893 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		78F1BE8C2E5C6E3D00A2A893 /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		78F1BCA92E549B4200A2A893 = {
 			isa = PBXGroup;
 			children = (
+				78F1BE8A2E5C6DDD00A2A893 /* Launch Screen.storyboard */,
+				78F1BE8C2E5C6E3D00A2A893 /* Launch Screen 2.storyboard */,
 				78F1BCB42E549B4200A2A893 /* FitPlay_TH_Bonan */,
 				78F1BCC32E549B4500A2A893 /* FitPlay_TH_BonanTests */,
 				78F1BCCD2E549B4500A2A893 /* FitPlay_TH_BonanUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F1BE8B2E5C6DDD00A2A893 /* Launch Screen.storyboard in Resources */,
+				78F1BE8D2E5C6E3D00A2A893 /* Launch Screen 2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +410,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -437,6 +449,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
