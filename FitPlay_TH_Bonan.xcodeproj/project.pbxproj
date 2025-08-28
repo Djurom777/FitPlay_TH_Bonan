@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78CDF60F2E609C33004D60A1 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CDF60E2E609C33004D60A1 /* LoadingView.swift */; };
 		78F1BE8B2E5C6DDD00A2A893 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F1BE8A2E5C6DDD00A2A893 /* Launch Screen.storyboard */; };
 		78F1BE8D2E5C6E3D00A2A893 /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78F1BE8C2E5C6E3D00A2A893 /* Launch Screen 2.storyboard */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78CDF60E2E609C33004D60A1 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		78F1BCB22E549B4200A2A893 /* FitPlay_TH_Bonan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitPlay_TH_Bonan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F1BCC02E549B4500A2A893 /* FitPlay_TH_BonanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitPlay_TH_BonanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F1BCCA2E549B4500A2A893 /* FitPlay_TH_BonanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitPlay_TH_BonanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 		78F1BCA92E549B4200A2A893 = {
 			isa = PBXGroup;
 			children = (
+				78CDF60E2E609C33004D60A1 /* LoadingView.swift */,
 				78F1BE8A2E5C6DDD00A2A893 /* Launch Screen.storyboard */,
 				78F1BE8C2E5C6E3D00A2A893 /* Launch Screen 2.storyboard */,
 				78F1BCB42E549B4200A2A893 /* FitPlay_TH_Bonan */,
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78CDF60F2E609C33004D60A1 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "DJU.FitPlay-TH-Bonan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -458,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "DJU.FitPlay-TH-Bonan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
